@@ -1,0 +1,158 @@
+<svg viewBox="0 0 620 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line-art illustration of Cristina at a laptop wearing a Van Gogh starry-night scarf, with bicycles">
+  <defs>
+    <style>
+      .ln{fill:none;stroke:#26251F;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;}
+      .tn{fill:none;stroke:#26251F;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round;}
+      .pp{fill:#FAF7F0;}
+      .bk{fill:none;stroke:#26251F;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;}
+    </style>
+  </defs>
+
+  <!-- ============ HAIR silhouette (wild, short, loopy) ============ -->
+  <path class="pp" d="M234 306
+    C210 304 196 282 192 254
+    C176 236 182 206 196 194
+    C182 168 196 138 218 132
+    C214 104 236 80 264 82
+    C272 56 306 44 332 56
+    C356 42 396 48 412 72
+    C438 70 458 92 452 118
+    C474 128 482 156 468 180
+    C480 200 474 228 456 242
+    C452 272 436 296 410 304
+    L410 306 L234 306 Z"/>
+  <path class="ln" d="M234 306
+    C210 304 196 282 192 254
+    C176 236 182 206 196 194
+    C182 168 196 138 218 132
+    C214 104 236 80 264 82
+    C272 56 306 44 332 56
+    C356 42 396 48 412 72
+    C438 70 458 92 452 118
+    C474 128 482 156 468 180
+    C480 200 474 228 456 242
+    C452 272 436 296 410 304"/>
+
+  <!-- ============ FACE ============ -->
+  <path class="pp" d="M240 212
+    C240 300 272 350 314 350
+    C356 350 388 300 388 212
+    C388 178 358 164 314 164
+    C270 164 240 178 240 212 Z"/>
+  <!-- jaw / cheeks (visible lower face) -->
+  <path class="ln" d="M242 216 C244 296 276 346 314 346 C352 346 384 296 386 216"/>
+  <!-- neck -->
+  <path class="ln" d="M288 340 C288 358 286 372 278 384 M340 340 C340 360 343 374 352 388"/>
+
+  <!-- ears -->
+  <path class="tn" d="M240 242 C228 240 222 250 226 262 C229 272 238 276 246 274"/>
+  <path class="tn" d="M388 242 C400 240 406 250 402 262 C399 272 390 276 382 274"/>
+
+  <!-- ============ GLASSES ============ -->
+  <circle class="ln" cx="278" cy="246" r="29"/>
+  <circle class="ln" cx="356" cy="246" r="29"/>
+  <path class="ln" d="M307 242 C312 237 322 237 327 242"/>
+  <path class="tn" d="M249 244 L240 246 M385 244 L394 246"/>
+
+  <!-- eyes, calm, focused -->
+  <path class="tn" d="M268 250 C272 245 284 245 289 250"/>
+  <path class="tn" d="M346 250 C350 245 362 245 367 250"/>
+  <!-- brows -->
+  <path class="tn" d="M264 220 C272 215 286 215 293 220 M340 220 C347 215 361 215 369 221"/>
+  <!-- nose -->
+  <path class="tn" d="M316 256 C314 270 311 280 305 286 C310 291 318 291 323 288"/>
+  <!-- smile -->
+  <path class="ln" d="M296 306 C308 316 326 316 340 307"/>
+
+  <!-- ============ HAIR front curls: defined ringlets + part + face-framing ============ -->
+  <g class="tn">
+    <!-- crown part -->
+    <path d="M311 98 C300 110 293 124 289 140"/>
+    <path d="M315 98 C327 108 336 122 341 138"/>
+    <!-- ringlet curls around the crown -->
+    <path d="M206 152 C196 148 196 134 206 130 C214 127 220 133 218 141 C217 147 210 148 208 143"/>
+    <path d="M238 112 C229 107 230 94 240 91 C248 89 253 96 250 103 C248 108 241 108 240 103"/>
+    <path d="M298 76 C291 68 297 57 307 57 C315 57 319 65 314 72"/>
+    <path d="M360 68 C362 58 374 54 382 61 C388 66 385 76 377 79"/>
+    <path d="M424 104 C434 100 444 108 441 118 C439 126 430 128 424 122 C420 118 423 111 428 113"/>
+    <path d="M458 152 C468 152 474 162 468 171 C463 178 454 177 450 171"/>
+    <!-- curls that fall and frame the face -->
+    <path d="M236 246 C224 264 222 290 232 310 C236 320 245 322 251 316"/>
+    <path d="M392 246 C404 264 406 290 396 310 C392 320 383 322 377 316"/>
+  </g>
+
+  <!-- ============ SHOULDERS ============ -->
+  <path class="ln" d="M262 356 C224 366 196 392 186 428 C180 452 180 480 182 512"/>
+  <path class="ln" d="M366 356 C408 366 440 394 452 432 C458 456 458 486 456 516"/>
+
+  <!-- ============ SCARF (Van Gogh Starry Night) ============ -->
+  <path d="M282 338
+    C260 346 244 362 242 384
+    C240 402 250 416 266 422
+    C260 452 260 484 270 516
+    L314 524 L356 514
+    C364 484 364 452 358 424
+    C376 416 386 402 384 382
+    C382 360 366 346 344 338
+    C324 350 302 350 282 338 Z"
+    fill="#2A5085" stroke="#1E3B63" stroke-width="2.6"/>
+  <!-- left hanging tail -->
+  <path d="M268 452 C262 486 264 516 274 546 L306 550
+    C298 520 296 486 300 454 Z"
+    fill="#2A5085" stroke="#1E3B63" stroke-width="2.6"/>
+  <!-- starry-night swirls -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M268 388 C278 380 292 384 294 396 C296 406 288 414 279 412 C272 411 268 403 272 397 C275 392 282 392 285 397"
+      stroke="#C89A3A" stroke-width="3.1"/>
+    <path d="M330 372 C342 368 353 377 351 388 C350 397 341 403 332 400"
+      stroke="#7FA3C9" stroke-width="2.9"/>
+    <path d="M300 420 C294 432 302 444 314 443 C324 442 330 432 327 423"
+      stroke="#C89A3A" stroke-width="2.9"/>
+    <path d="M288 476 C297 470 309 474 311 484 C312 493 304 500 296 497"
+      stroke="#7FA3C9" stroke-width="2.7"/>
+    <path d="M334 462 C344 460 353 469 351 479 C350 486 342 491 335 488"
+      stroke="#C89A3A" stroke-width="2.7"/>
+    <path d="M280 512 C286 526 285 542 279 556" stroke="#7FA3C9" stroke-width="2.5"/>
+    <path d="M300 516 C305 530 304 544 300 556" stroke="#C89A3A" stroke-width="2.4"/>
+    <path d="M346 384 C352 386 355 394 351 400" stroke="#C89A3A" stroke-width="2.3"/>
+    <path d="M258 430 C263 433 265 441 261 446" stroke="#7FA3C9" stroke-width="2.3"/>
+  </g>
+
+  <!-- ============ LAPTOP ============ -->
+  <path class="pp" d="M150 566 L214 502 C220 496 228 494 236 494 L378 494 C386 494 392 498 394 506 L420 578 Z"/>
+  <path class="ln" d="M150 566 L214 502 C220 496 228 494 236 494 L378 494 C386 494 392 498 394 506 L420 578"/>
+  <path class="pp" d="M128 606 C128 596 136 590 146 590 L500 590 C510 590 518 598 516 608 C514 616 506 620 498 620 L146 620 C136 620 128 616 128 606 Z"/>
+  <path class="ln" d="M128 606 C128 596 136 590 146 590 L500 590 C510 590 518 598 516 608 C514 616 506 620 498 620 L146 620 C136 620 128 616 128 606 Z"/>
+  <!-- apple mark on lid -->
+  <path class="tn" d="M282 528 C276 528 271 533 271 540 C271 548 276 554 282 554 C285 554 286 552 289 552 C292 552 293 554 296 554 C302 554 307 548 307 540 C307 533 302 528 296 528 C293 528 291 530 289 530 C287 530 285 528 282 528 Z"/>
+  <path class="tn" d="M289 520 C290 524 293 526 297 526 C297 522 294 519 289 520 Z"/>
+
+  <!-- ============ HAND on keyboard ============ -->
+  <path class="ln" d="M300 590 C294 598 294 610 300 616"/>
+  <path class="tn" d="M306 592 L310 606 M316 590 L320 606 M326 592 L329 604"/>
+
+  <!-- ============ BICYCLES ============ -->
+  <!-- top-left bike -->
+  <g class="bk" transform="translate(30 96) scale(0.7)">
+    <circle cx="36" cy="88" r="31"/>
+    <circle cx="132" cy="88" r="31"/>
+    <path d="M36 88 L78 34 L120 88 M78 34 L132 88 M78 34 L60 34 M68 34 L92 34"/>
+    <path d="M78 34 L84 20 L102 20"/>
+    <circle cx="36" cy="88" r="3.5" fill="#26251F"/>
+    <circle cx="132" cy="88" r="3.5" fill="#26251F"/>
+  </g>
+
+  <!-- bottom-right little bike -->
+  <g class="bk" transform="translate(494 512) scale(0.58)">
+    <circle cx="34" cy="86" r="27"/>
+    <circle cx="120" cy="86" r="27"/>
+    <path d="M34 86 L72 36 L108 86 M72 36 L120 86 M72 36 L58 36 M64 36 L84 36"/>
+    <path d="M72 36 L78 24 L94 24"/>
+  </g>
+
+  <!-- tiny spinning wheel doodle -->
+  <g class="tn" opacity="0.5">
+    <circle cx="560" cy="150" r="15"/>
+    <path d="M560 135 L560 165 M545 150 L575 150 M549 139 L571 161 M571 139 L549 161"/>
+  </g>
+</svg>
