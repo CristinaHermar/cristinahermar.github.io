@@ -175,7 +175,9 @@
   .proj-shot svg{width:34px; height:34px; color:var(--delft); opacity:0.45; transition:transform .4s;}
   .proj:hover .proj-shot svg{transform:scale(1.12) rotate(4deg);}
   .proj-shot span{font-family:var(--mono); font-size:10.5px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.06em; text-align:center; padding:0 20px;}
-  .proj-tag{position:absolute; top:12px; left:12px; font-family:var(--mono); font-size:10.5px; background:var(--ink); color:var(--paper); padding:5px 10px; border-radius:6px; letter-spacing:0.04em;}
+  .proj-shot img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; transition:transform .5s;}
+  .proj:hover .proj-shot img{transform:scale(1.04);}
+  .proj-tag{position:absolute; top:12px; left:12px; z-index:2; font-family:var(--mono); font-size:10.5px; background:var(--ink); color:var(--paper); padding:5px 10px; border-radius:6px; letter-spacing:0.04em;}
   .proj-body{padding:24px 24px 26px; display:flex; flex-direction:column; flex:1;}
   .proj-body h3{font-size:21px; font-weight:600; margin-bottom:10px;}
   .proj-body p{font-size:14.5px; color:var(--ink-soft); margin-bottom:18px; flex:1;}
@@ -351,7 +353,7 @@
         <div class="proj-body"><h3>Gebeden — devotional PWA</h3><p>A multilingual Catholic prayer app built solo, front to back: EN/NL with optional German and Latin, a Rosary with mystery selector, the Opus Dei Preces, dark mode, and offline-first design.</p><div class="proj-meta"><span>PWA</span><span>UX/UI</span><span>i18n</span><span>End-to-end</span></div><div class="proj-links"><a href="https://cristinahermar.github.io/gebeden/" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/CristinaHermar/gebeden" target="_blank" rel="noopener">Code ↗</a></div></div>
       </div>
       <div class="proj reveal tilt">
-        <div class="proj-shot"><span class="proj-tag">Personal · Live</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l7 4v6c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg><span>Screenshot of Hazelwood Adventures</span></div>
+        <div class="proj-shot"><span class="proj-tag">Personal · Live</span><img src="hazelwood.jpg" alt="Hazelwood Adventures app — home screen with filters for area and category" loading="lazy" decoding="async"></div>
         <div class="proj-body"><h3>Hazelwood Adventures</h3><p>A static site for planning and sharing Glasgow outings with my housemates — WhatsApp integration, a Firebase-backed shared "visited" state, installable as a PWA. The best project is often the one that solves something real and small.</p><div class="proj-meta"><span>Firebase</span><span>PWA</span><span>Product design</span></div><div class="proj-links"><a href="https://cristinahermar.github.io/HazelwoodAdventures/" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/CristinaHermar/HazelwoodAdventures" target="_blank" rel="noopener">Code ↗</a></div></div>
       </div>
       <div class="proj reveal tilt">
